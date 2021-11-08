@@ -4,14 +4,11 @@
 <head>
     <meta charset="uk">
     <link rel="stylesheet" href="../css/estilo.css">
-    <script src="script_slider.js"></script>
 
 </head>
 
 <body>
-    <div class="container">
-        <a class="links" id="paralogin"></a>
-
+    <div class="content">
         <!--FORMULÁRIO DE CADASTRO-->
         <div id="cadastro">
             <form method="post" action="">
@@ -29,6 +26,11 @@
                 </p>
 
                 <p>
+                    <label for="telef_cad">Seu Telefone para contato</label>
+                    <input id="telef_cad" name="telef_cad" required="required" type="tel" placeholder="41999999999" />
+                </p>
+
+                <p>
                     <label for="senha_cad">Sua senha</label>
                     <input id="senha_cad" name="senha_cad" required="required" type="password" placeholder="1234" />
                 </p>
@@ -39,11 +41,10 @@
 
                 <p class="link">
                     Já tem conta?
-                    <a href="#paralogin"> Ir para Login </a>
+                    <a href="../login/index.html"> Ir para Login </a>
                 </p>
             </form>
         </div>
-    </div>
     </div>
 </body>
 
